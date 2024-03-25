@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nutrition Calculator</title>
+  <style>
+    .ingredient {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Nutrition Calculator</h1>
+  
+  <div id="ingredients">
+    <div class="ingredient">
+      <label for="ingredientName">Ingredient Name:</label>
+      <input type="text" class="name">
+      <label for="grams">Grams:</label>
+      <input type="number" class="grams">
+      <label for="protein">Protein (g):</label>
+      <input type="number" class="protein">
+      <label for="carbohydrates">Carbohydrates (g):</label>
+      <input type="number" class="carbohydrates">
+      <label for="fats">Fats (g):</label>
+      <input type="number" class="fats">
+      <label for="calories">Calories:</label>
+      <input type="number" class="calories">
+    </div>
+  </div>
+  
+  <button id="addIngredient">Add Ingredient</button>
+  <button id="calculate">Calculate</button>
+  
+  <div id="result"></div>
+
+  <script src="nutritionCalculator.js"></script>
+</body>
+</html>
